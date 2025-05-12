@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Menswear</title>
+    <link rel="icon" href="image/41aa05f0-6504-4ccf-8d4a-454420760ba4_removalai_preview (1).png">
+</head>
+<body>
+    <header>
+        <nav class=" navbar navbar-dark bg-dark navbar-expand-lg">
+            <div class="container-fluid">
+                <img src="image/41aa05f0-6504-4ccf-8d4a-454420760ba4_removalai_preview.png" alt="" id="logo">
+                <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="NavBar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item pe-4 "><a class="nav-link active" href="#" id="nav-a">Home</a></li>
+                        <li class="nav-item pe-4"><a class="nav-link" href="#collection" id="nav-a">About</a></li>
+                        <li class="nav-item pe-4"><a class="nav-link" href="#product" id="nav-a">Product</a></li>
+                        <li class="nav-item pe-4"><a class="nav-link" href="#shop" id="nav-a">Shop</a></li>
+                        <li class="nav-item pe-4"><a class="nav-link" href="#blog" id="nav-a">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact" id="nav-a">Contact</a></li>
+                    </ul>
+                    <div class="nav-icon position-relative" id="top-icon">
+                        <a href="#">
+                            <i class="bi bi-search" title="Search"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-person" title="Person"></i>
+                        </a>
+                        <a href="#" class="position-relative">
+                            <i class="bi bi-heart" title="whistle"><span
+                                    class="position-absolute bg-danger badge rounded-circle"
+                                    style="position: absolute; font-size: 11px;right: 4px; ">4</span></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-bag" title="Basket"><span
+                                    class="position-absolute bg-danger badge rounded-circle"
+                                    style="position: absolute; font-size: 11px;right: -3px; ">2</span></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="offcanvas offcanvas-start" data-bs-backdrop="false" data-bs-scroll="true" id="offcanvasNavbar">
+                <div class="offcanvas-header">
+                    <img src="image/41aa05f0-6504-4ccf-8d4a-454420760ba4_removalai_preview.png" id="canva">
+                    <button class="btn-close" id="canva-btn" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="card-body">
+                        <ul class="d-lg-none list-group list-group-flush">
+                            <li class="list-group-item"><a id="offcanvas-a" href="">Home</a></li>
+                            <li class="list-group-item"><a id="offcanvas-a" href="">About</a></li>
+                            <li class="list-group-item"><a id="offcanvas-a" href="">Product</a></li>
+                            <li class="list-group-item"><a id="offcanvas-a" href="">Shop</a></li>
+                            <li class="list-group-item"><a id="offcanvas-a" href="">Blog</a></li>
+                            <li class="list-group-item"><a id="offcanvas-a" href="">Contact</a></li>
+                        </ul>
+                        <hr>
+                        <div class="offcanvas-icon d-lg-none">
+                            <i class="bi bi-person"><span>Login/Register</span></i>
+                            <i class="bi bi-heart"><span>Wishlist</span><span class="badge bg-danger rounded-circle"
+                                    id="badge-icon">2</span></i>
+                            <i class="bi bi-bag"><span id="bas-after">Basket: </span><span
+                                    class="badge bg-danger rounded-circle" id="badge2-icon">2</span></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-banner" style="background-image: url(image/hero-banner\ \(1\).png);">
+            <div class="container" id="c1">
+                <h2 class="h1" id="text-title">NEW SUMMER<strong>Shoes Collection</strong></h2>
+                <p class="hero-text">Competently expedite alternative benefits whereas leading-edge catalysts for
+                    change. Globally leverage existing an expanded array of leadership.</p>
+                <button class="btn btn-lg" id="hero-btn">Shop Now</button>
+            </div>
+        </section>
+        <section class="collection" id="collection">
+            <div class="container">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="back-img my-5" style="background-image: url(image/collection-1.jpg);">
+                            <h3 id="coll-text">Men Collection</h3>
+                            <button id="btn-1">Expoler All<i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="back-img my-5" style="background-image: url(image/collection-2.jpg);">
+                            <h3 id="coll-text">Women Collection</h3>
+                            <button id="btn-1">Expoler All<i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="back-img my-5" style="background-image: url(image/collection-3.jpg);">
+                            <h3 id="coll-text">Sports Collection</h3>
+                            <button id="btn-1">Expoler All<i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product" id="product">
+            <div class="container my-5">
+                <h2 data-aos="fade-up" data-aos-duration="3000">Bestseller Product</h2>
+                <ul class="product-filter my-5" data-aos="fade-up" data-aos-duration="2000">
+                    <li class="filter-item"><button class="btn btn-danger rounded-pill">ALL</button></li>
+                    <li class="filter-item"><button class="btn btn-danger rounded-pill">NIKE</button></li>
+                    <li class="filter-item"><button class="btn btn-danger rounded-pill">ADIDAS</button></li>
+                    <li class="filter-item"><button class="btn btn-danger rounded-pill">PUMA</button></li>
+                    <li class="filter-item"><button class="btn btn-danger rounded-pill">BATA</button></li>
+                    <li class="filter-item"><button class="btn btn-danger rounded-pill">APEX</button></li>
+                </ul>
+                <div class="row my-5" id="p-div1">
+                    <div id="box1" class="col-12 col-sm-6 col-md-4 col-lg-3 text-center position-relative"
+                        data-aos="fade-left">
+                        <img src="image/product-1.jpg" alt="" id="product-img">
+                        <a href="">Men/Women</a>
+                        <h3><a href="">Running Sneaker Shoes</a></h3>
+                        <h5 style="color: crimson;">$180.85</h5>
+                        <span class="badge bg-danger rounded-pill">New</span>
+                        <ul class="p-ul" data-aos="fade-right">
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Carft"> <i
+                                    class="bi bi-cart rounded-circle"></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Whislist"> <i
+                                    class="bi bi-heart"></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick View"> <i
+                                    class="bi bi-eye"></i></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Compare"> <i
+                                    class="bi bi-repeat"></i></li>
+                        </ul>
+                    </div>
+                    <div id="box2" class="col-12 col-sm-6 col-md-4 col-lg-3 text-center" data-aos="fade-left">
+                        <img src="image/product-2.jpg" alt="" id="product-img">
+                        <a href="">Men/Sports</a>
+                        <h3><a href="">Leather Mens Slipper</a></h3>
+                        <h5 style="color: crimson;">$180.85</h5>
+                        <ul class="p-ul" data-aos="fade-right">
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Carft"> <i
+                                    class="bi bi-cart rounded-circle"></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Whislist"> <i
+                                    class="bi bi-heart"></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick View"> <i
+                                    class="bi bi-eye"></i></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Compare"> <i
+                                    class="bi bi-repeat"></i></li>
+                        </ul>
+                    </div>
+                    <div id="box3" class="col-12 col-sm-6 col-md-4 col-lg-3 text-center" data-aos="fade-left">
+                        <img src="image/product-3.jpg" alt="" id="product-img">
+                        <a href="">Men/Women</a>
+                        <h3><a href="">Simple Fabric shoes</a></h3>
+                        <h5 style="color: crimson;">$180.85</h5>
+                        <span class="badge bg-danger rounded-pill">New</span>
+                        <ul class="p-ul" data-aos="fade-right">
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Carft"> <i
+                                    class="bi bi-cart rounded-circle"></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Whislist"> <i
+                                    class="bi bi-heart"></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick View"> <i
+                                    class="bi bi-eye"></i></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Compare"> <i
+                                    class="bi bi-repeat"></i></li>
+                        </ul>
+                    </div>
+                    <div id="box4" class="col-12 col-sm-6 col-md-4 col-lg-3 text-center" data-aos="fade-left">
+                        <img src="image/product-4.jpg" alt="" id="product-img">
+                        <a href="">Men/Women</a>
+                        <h3><a href="">Air Jordon 7 Retro</a></h3>
+                        <span class="badge bg-danger rounded-pill">-25%</span>
+                        <h5 style="color: crimson;">$180.85 <del style="color: hsl(0, 0%, 74%);">200.21$</del></h5>
+                        <ul class="p-ul" data-aos="fade-right">
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Carft"> <i
+                                    class="bi bi-cart rounded-circle"></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Whislist"> <i
+                                    class="bi bi-heart"></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick View"> <i
+                                    class="bi bi-eye"></i></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Compare"> <i
+                                    class="bi bi-repeat"></i></li>
+                        </ul>
+                    </div>
+                    <div id="box1" class="col-12 col-sm-6 col-md-4 col-lg-3 text-center position-relative"
+                        data-aos="fade-left">
+                        <img src="image/product-5.jpg" alt="" id="product-img">
+                        <a href="">Men/Women</a>
+                        <h3><a href="">Nike Air Max 270 SE</a></h3>
+                        <h5 style="color: crimson;">$120.85</h5>
+                        <span class="badge bg-danger rounded-pill">New</span>
+                        <ul class="p-ul" data-aos="fade-right">
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Carft"> <i
+                                    class="bi bi-cart rounded-circle"></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Whislist"> <i
+                                    class="bi bi-heart"></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick View"> <i
+                                    class="bi bi-eye"></i></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Compare"> <i
+                                    class="bi bi-repeat"></i></li>
+                        </ul>
+                    </div>
+                    <div id="box2" class="col-12 col-sm-6 col-md-4 col-lg-3 text-center" data-aos="fade-left">
+                        <img src="image/product-6.jpg" alt="" id="product-img">
+                        <a href="">Men/Sports</a>
+                        <h3><a href="">Adidas Sneakers Shoes</a></h3>
+                        <h5 style="color: crimson;">$120.85</h5>
+                        <ul class="p-ul" data-aos="fade-right">
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Carft"> <i
+                                    class="bi bi-cart rounded-circle"></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Whislist"> <i
+                                    class="bi bi-heart"></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick View"> <i
+                                    class="bi bi-eye"></i></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Compare"> <i
+                                    class="bi bi-repeat"></i></li>
+                        </ul>
+                    </div>
+                    <div id="box3" class="col-12 col-sm-6 col-md-4 col-lg-3 text-center" data-aos="fade-left">
+                        <img src="image/product-7.jpg" alt="" id="product-img">
+                        <a href="">Men/Women</a>
+                        <h3><a href="">Nike Basketball shoes</a></h3>
+                        <h5 style="color: crimson;">$180.85</h5>
+                        <ul class="p-ul" data-aos="fade-right">
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Carft"> <i
+                                    class="bi bi-cart rounded-circle"></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Whislist"> <i
+                                    class="bi bi-heart"></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick View"> <i
+                                    class="bi bi-eye"></i></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Compare"> <i
+                                    class="bi bi-repeat"></i></li>
+                        </ul>
+                    </div>
+                    <div id="box4" class="col-12 col-sm-6 col-md-4 col-lg-3 text-center" data-aos="fade-left">
+                        <img src="image/product-8.jpg" alt="" id="product-img">
+                        <a href="">Men/Women</a>
+                        <h3><a href="">Simple Fabric Shoe</a></h3>
+                        <h5 style="color: crimson;">$180.85 <del style="color: hsl(0, 0%, 74%);">100.21$</del></h5>
+                        <ul class="p-ul" data-aos="fade-right">
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Carft"> <i
+                                    class="bi bi-cart rounded-circle"></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Whislist"> <i
+                                    class="bi bi-heart"></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Quick View"> <i
+                                    class="bi bi-eye"></i></i></li>
+                            <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Compare"> <i
+                                    class="bi bi-repeat"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="shop">
+                <div class="row gx-4 gy-4" data-aos="flip-up">
+                    <div class="col-12 col-md-6 d-flex">
+                        <div class="bg1 w-100 d-flex align-items-center">
+                            <div class="cd-1 text-white p-4">
+                                <p>Adidas Shoes</p>
+                                <h3>The Summer Sale Off 50%</h3>
+                                <a href="">Shop Now <span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex">
+                        <div class="bg2 w-100 d-flex align-items-center">
+                            <div class="cd-1 text-white p-4">
+                                <p>Nike Shoes</p>
+                                <h3>Makes Yourself Keep Sporty</h3>
+                                <a href="">Shop Now <span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="nike-special">
+                    <div class="row my-5">
+                        <div class="col-12 col-sm-5 col-md-3 nike-bg">
+                        </div>
+                        <div class="col-12 col-sm-7 col-md-9 nike-text">
+                            <div class="d-flex align-items-center gap-4 mt-5">
+                                <h1>Nike Special</h1>
+                                <span></span>
+                            </div>
+                            <div class="owl-carousel owl-theme text-center">
+                                <div id="box1">
+                                    <img src="image/product-1.jpg" alt="">
+                                    <a href="">Men/Women</a>
+                                    <h3><a href="">Running Sneaker Shoes</a></h3>
+                                    <h5 style="color: crimson;">$160.85</h5>
+                                    <ul class="p-ul" data-aos="fade-right">
+                                        <li data-bs-toggle="tooltip" data-bs-placement="left"
+                                            data-bs-title="Add to Carft"> <i class="bi bi-cart rounded-circle"></i></li>
+                                        <li data-bs-toggle="tooltip" data-bs-placement="left"
+                                            data-bs-title="Add to Whislist"> <i class="bi bi-heart"></i></li>
+                                        <li data-bs-toggle="tooltip" data-bs-placement="left"
+                                            data-bs-title="Quick View"> <i class="bi bi-eye"></i></i></li>
+                                        <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Compare">
+                                            <i class="bi bi-repeat"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="box1">
+                                    <img src="image/product-2.jpg" alt="">
+                                    <a href="">Men/Sports</a>
+                                    <h3><a href="">Leather Mens Slipper</a></h3>
+                                    <h5 style="color: crimson;">$140.85</h5>
+                                    <ul class="p-ul" data-aos="fade-right">
+                                        <li data-bs-toggle="tooltip" data-bs-placement="left"
+                                            data-bs-title="Add to Carft"> <i class="bi bi-cart rounded-circle"></i></li>
+                                        <li data-bs-toggle="tooltip" data-bs-placement="left"
+                                            data-bs-title="Add to Whislist"> <i class="bi bi-heart"></i></li>
+                                        <li data-bs-toggle="tooltip" data-bs-placement="left"
+                                            data-bs-title="Quick View"> <i class="bi bi-eye"></i></i></li>
+                                        <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Compare">
+                                            <i class="bi bi-repeat"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="box1">
+                                    <img src="image/product-5.jpg" alt="">
+                                    <a href="">Men/Women</a>
+                                    <h3><a href="">Simple Fabric Shoe</a>
+                                    </h3>
+                                    <h5 style="color: crimson;">$100.85 <del
+                                            style="color: hsl(0, 0%, 74%);">180.21$</del></h5>
+                                    <ul class="p-ul" data-aos="fade-right">
+                                        <li data-bs-toggle="tooltip" data-bs-placement="left"
+                                            data-bs-title="Add to Carft"> <i class="bi bi-cart rounded-circle"></i></li>
+                                        <li data-bs-toggle="tooltip" data-bs-placement="left"
+                                            data-bs-title="Add to Whislist"> <i class="bi bi-heart"></i></li>
+                                        <li data-bs-toggle="tooltip" data-bs-placement="left"
+                                            data-bs-title="Quick View"> <i class="bi bi-eye"></i></i></li>
+                                        <li data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Compare">
+                                            <i class="bi bi-repeat"></i>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        </div>
+        </section>
+        <section class="service-section my-5">
+            <div class="row align-items-center " data-aos="fade-up-right">
+                <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center my-4">
+                    <div class="s-item">
+                        <img src="image/service-1.png" alt="">
+                    </div>
+                    <div class="s-text">
+                        <h2>Free Shiping</h2>
+                        <span id="amt">All orders over</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center my-4">
+                    <div class="s-item">
+                        <img src="image/service-2.png" alt="" class="p-2">
+                    </div>
+                    <div class="s-text">
+                        <h2>Free Shiping</h2>
+                        <span>100% Secure Payment</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center my-4">
+                    <div class="s-item">
+                        <img src="image/service-3.png" alt="" class="px-2">
+                    </div>
+                    <div class="s-text">
+                        <h2>Free Shiping</h2>
+                        <span>Money Back in 30 days</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center my-4">
+                    <div class="s-item">
+                        <img src="image/service-4.png" alt="" class="px-2">
+                    </div>
+                    <div class="s-text">
+                        <h2>24/7 Support</h2>
+                        <span>Get Quick Support</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-post my-5" id="blog">
+            <div class="owl-theme owl-carousel" id="myCarousel">
+                <div class="sp-b1">
+                    <img src="image/insta-1.jpg" alt="">
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+                <div class="sp-b2">
+                    <img src="image/insta-2.jpg" alt="">
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+                <div class="sp-b3">
+                    <img src="image/insta-3.jpg" alt="">
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+                <div class="sp-b4">
+                    <img src="image/insta-4.jpg" alt="">
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+                <div class="sp-b5">
+                    <img src="image/insta-5.jpg" alt="">
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+                <div class="sp-b6">
+                    <img src="image/insta-6.jpg" alt="">
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+                <div class="sp-b7">
+                    <img src="image/insta-7.jpg" alt="">
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+                <div class="sp-b8">
+                    <img src="image/insta-8.jpg" alt="">
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-brand" id="contact">
+            <div class="container position-relative">
+                <div class="d-flex justify-content-between align-items-center position-relative">
+                    <div class="b-logo">
+                        <img src="image/41aa05f0-6504-4ccf-8d4a-454420760ba4_removalai_preview.png" alt="">
+                    </div>
+                    <div class="b-icon">
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""> <i class="bi bi-twitter-x"></i></a>
+                        <a href=""><i class="bi bi-github"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <span id="b-span"></span>
+            </div>
+            <section class="footer-about mt-5 ps-2">
+                <div class="container">
+                    <div class="row about-div mt-5 ">
+                        <div class="col-12 col-md-6 col-lg-3 ab-box1">
+                            <h2>Contact Us</h2>
+                            <span></span>
+
+                            <p> <i class="bi bi-geo-alt"></i>2751 S Parker Rd, Aurora, CO 80014 United state</p>
+
+                            <a href="">
+                                <p> <i class="bi bi-telephone-fill"></i>+557343673257</p>
+                            </a>
+                            <a href="">
+                                <p> <i class="bi bi-envelope"></i>MaxWear@help.com</p>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 ab-box2">
+                            <h2>My Account</h2>
+                            <span></span>
+                            <a href="">
+                                <p>My Account</p>
+                            </a>
+                            <a href="">
+                                <p>View Cart</p>
+                            </a>
+                            <a href="">
+                                <p>Wishlist</p>
+                            </a>
+                            <a href="">
+                                <p>Compare</p>
+                            </a>
+                            <a href="">
+                                <p>New Product</p>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 ab-box3" style="
+                            padding-left: 0px;
+                            padding-right: 0px;
+                            min-width: fit-content;">
+                            <h2>Opening Time</h2>
+                            <span></span>
+                            <p class="para-1">Mon - Tue:</p>
+                            <p class="para-2">Wed:</p>
+                            <p class="para-3">Fri:</p>
+                            <p class="para-4">Sat:</p>
+                            <p class="para-6">Sun:</p>
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 ab-box4" style="line-height: 35px;">
+                            <h2>Newsletter</h2>
+                            <span></span>
+                            <p>Authoritatively morph 24/7 potentialities with error-free partnerships.</p>
+                            <div class="input-group">
+                                <div class="input-group-text btn btn-danger">Subscribe</div>
+                                <input type="text" class="form-control" placeholder="Email Address 😊">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="footer-bottom ">
+            <div style="background: black; height: 52px;text-align: center;color: mintcream; align-content: center;">
+                <h6>© 2025 <span class="fb-span"></span>All Rights Reserved</h6>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="dist/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 1500,
+                autoplayHoverPause: false,
+                responsive: {
+                    0: {
+                        items: 1 // 1 item for mobile phones
+                    },
+                    768: {
+                        items: 2 // 2 items for tablets
+                    },
+                    1024: {
+                        items: 3 // 3 items for laptops
+                    },
+                    1440: {
+                        items: 3 // 3 items for xl laptops/desktops
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+    <script>
+        var owl = $('#myCarousel');
+        owl.owlCarousel({
+            loop: true,
+            margin: 10,
+            center: true,
+            autoplay: true,
+            center: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 3 // 1 item for mobile phones
+                },
+                768: {
+                    items: 5 // 2 items for tablets
+                },
+                1024: {
+                    items: 7  // 3 items for laptops
+                },
+                1440: {
+                    items: 7 // 3 items for xl laptops/desktops
+                }
+            }
+        });
+        $('#play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [1000])
+        })
+        $('#stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+        })
+    </script>
+
+</html>
+</body>
